@@ -57,7 +57,7 @@ public class RandomExamples {
 	if(flag == 2){
 	    int [] generatedNumbers = new int[1000]; // don't worry about this
 	    for(int i = 0; i<1000; i++){
-		generatedNumbers[i] = randGen.nextInt(5);
+		generatedNumbers[i] = randGen.nextInt(-5);
 	    }
 	    System.out.println("randGen.nextInt(-5)");
 	    System.out.println("Max: " + max(generatedNumbers));
