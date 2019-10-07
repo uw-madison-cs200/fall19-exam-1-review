@@ -14,6 +14,10 @@ public class RandomExamples {
 	Random randGen = new Random();
 	Random randGenWithSeed = new Random(125);
 
+	System.out.println();
+	example2(randGen, randGenWithSeed);
+	System.out.println();
+
 	//bounded random generator formula:
 	//randGen.nextInt(max-min+1) + min;
 
@@ -21,7 +25,7 @@ public class RandomExamples {
 	example1(randGen, 1);
 	example1(randGen, 2);
 	example1(randGen, 3);
-	example2(randGen, randGenWithSeed);
+	
     }
 
     public static void example1(Random randGen, int flag){
